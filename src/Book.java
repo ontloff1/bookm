@@ -32,7 +32,7 @@ public class Book {
         }
     }
 
-    // Метод для тестов (чтобы искусственно "состарить" книгу)
+    // Метод для тестов (чтоы искусственно "состарить" книгу)
     public void setReceiptDate(LocalDate receiptDate) {
         this.receiptDate = receiptDate;
     }
