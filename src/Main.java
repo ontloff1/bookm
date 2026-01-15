@@ -36,7 +36,7 @@ public class Main {
         store.completeOrder(1); // Заказ #1 выполнен
 
         // Сценарий 2: Покупка отсутствующей книги
-        System.out.println("\n--- Покупка отсутствующей книги ---");
+        System.out.println("\n--- Покупк отсутствующей книги ---");
         store.writeOffBook(b1); // Списываем "Войну и Мир"
 
         store.createOrder(b1);  // Создаем Заказ #2 (Авто-запрос создастся)

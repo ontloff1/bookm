@@ -1,7 +1,7 @@
 package work1.task4;
 
 public class Request {
-    private static int requestCounter = 1; // Просто для статистики
+    private static int requestCounter = 1; // Простодля статистики
     private int id;
     private Book book;
     private boolean isFulfilled; // Выполнен ли запрос

@@ -156,7 +156,7 @@ public class BookStore {
     // 10. "Залежавшиеся" книги (на складе > 6 месяцев)
     public void showStaleBooks() {
         LocalDate sixMonthsAgo = LocalDate.now().minusMonths(6);
-        System.out.println("\n--- Залежавшиеся книги (более 6 мес.) ---");
+        System.out.println("\n--- Залежавшиес книги (более 6 мес.) ---");
 
         for (Book b : inventory) {
             if (b.getStatus() == BookStatus.IN_STOCK && b.getReceiptDate().isBefore(sixMonthsAgo)) {

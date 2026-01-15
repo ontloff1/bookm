@@ -30,7 +30,7 @@ public class Order {
         }
     }
 
-    // Для тестов (чтобы менять дату выполнения вручную)
+    // Для тестов (чтобы менять дату =выполнения вручную)
     public void setExecutionDate(LocalDate executionDate) {
         this.executionDate = executionDate;
     }
