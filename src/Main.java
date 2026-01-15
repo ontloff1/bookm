@@ -43,7 +43,7 @@ public class Main {
         store.completeOrder(2); // Пытаемся завершить -> Должна быть ОШИБКА
 
         System.out.println("\n--- Завоз товара ---");
-        store.addBookToStock(b1); // Завозим книгу -> Запрос закрывается
+        store.addBookToStock(b1); // Заволлллим книгу -> Запрос закрывается
 
         store.completeOrder(2); // Пробуем снова -> Теперь УСПЕХ
 
